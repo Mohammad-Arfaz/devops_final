@@ -15,7 +15,7 @@ pipeline {
 
         stage('Clone Repo') {
             steps {
-                git branch: 'main', url: 'https://github.com/Mohammad-Arfaz/your-repo.git'
+                git branch: 'main', url: 'https://github.com/Mohammad-Arfaz/devops_final.git'
             }
         }
 
